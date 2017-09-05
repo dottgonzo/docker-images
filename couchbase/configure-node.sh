@@ -26,7 +26,7 @@ echo "Type: $TYPE"
 
 if [ "$TYPE" = "WORKER" ]; then
   echo "Sleeping ..."
-  sleep 15
+  sleep 60
 
   #IP=`hostname -s`
   IP=`hostname -I | cut -d ' ' -f1`
